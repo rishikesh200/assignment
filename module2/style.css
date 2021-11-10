@@ -16,7 +16,7 @@ h1 {
 .section {
     background-color: rgb(155, 152, 152);
     border: 3px solid black;
-    height: auto;
+    height: 220px;
     margin: auto;
     position: relative;
     margin-bottom: 18px;
