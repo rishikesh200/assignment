@@ -1,5 +1,5 @@
 var names=new Array();
-names[0]="yaakov";
+names[0]="yakkov";
 names[1]="james";
 names[2]="jos";
 names[3]="ram";
