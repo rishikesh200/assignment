@@ -1,0 +1,147 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: cadetblue;
+    border: 0%;
+    box-sizing: border-box;
+    background-image: url('../image/about-image.pn') ;
+    background-size:cover ;
+}
+header{
+    background-color: antiquewhite;
+    
+}
+.brand{
+    margin-left: 30px;
+}
+#logo{
+    background: url('../image/logo.png');
+    height: 120px;
+    width: 120px;
+    background-size:contain;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.brand div{
+   
+    float: left;
+}
+.name{
+    margin: 10px 10px;
+}
+.name a{
+    text-decoration: none;
+    color: rgb(218, 0, 0);
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+   
+    
+}
+.name a h1{
+    font-size: 50px;
+    
+} 
+.marq marquee p{
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+  
+/* -------------------------------------------------------- */
+
+.third-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -140px;
+    min-width: 140px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    box-shadow: 5px 5px 25px 0px rgb(31, 26, 26);
+}
+
+.third-level-menu > li
+{
+    height: px;
+    background: rgb(1, 102, 102);
+    padding-left: 10px;
+}
+.third-level-menu > li:hover { background: blue; }
+
+.second-level-menu
+{
+    position: absolute;
+    
+    min-width: 140px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    box-shadow: 5px 5px 25px 0px rgb(31, 26, 26);
+    
+    
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: px;
+    background: rgb(1, 102, 102);
+    text-align: left;
+    padding-left: 10px;
+}
+.second-level-menu > li:hover { background: blue; }
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(1, 102, 102);
+    overflow: hidden;
+    }
+
+.top-level-menu > li
+{
+    
+    float: left;
+    height: px;
+    width: 140px;
+    text-align: center;
+
+}
+
+.top-level-menu > li:hover { background: blue; }
+.top-level-menu li:hover > ul
+{
+    
+   display: block;
+}
+
+
+
+
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    /* Make the link cover the entire list item-container */
+    display:block;
+    line-height: px;
+}
+.top-level-menu a:hover { color: ;}
